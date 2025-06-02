@@ -1,0 +1,25 @@
+body {
+    background-color: beige;
+}
+
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card-content {
+    background: rgb(21, 175, 221);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1020px) {
+.card-content {
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
